@@ -1,0 +1,187 @@
+:root{
+--bg1: #42445A;
+--bg2: lightblue;
+--bg3: lightcoral;
+ 
+ --fs1:24px;
+ --fs2:16px;
+ --fs3:14px;
+ --fs4:8px;
+}
+
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ width: 100vw;
+ background: white;
+ font-family: "Playwrite GB J", cursive;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-weight: 700;
+ color: rgba(0, 0, 0, 0.7);
+}
+
+.box1{
+    font-size: var(--fs3);
+    width: 1440px;
+    height: 48px;
+    
+    display: flex;
+    align-items: center;
+    
+    padding-left: 24px;
+    
+    margin-bottom: 30px;
+    
+    border-radius: 0 0 25px 25px;
+    
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+span{color: rgba(51, 201, 254, 1)}
+
+
+
+
+
+.box2{
+    background-color: var(--bg1);
+    width: 1440px;
+    height: 480px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    
+}
+
+.slider{
+    width: 7200px;
+    height: 480px;
+    display: flex;
+    transition-duration: 1s;
+}
+
+.slide{
+    width: 1440px;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    /* transform: translateX(-100px); */
+}
+
+.slide1{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/dBanner%20-%2001.webp');}
+.slide2{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/dBanner%20-%2002.webp');}
+.slide3{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/dBanner%20-%2003.webp');}
+.slide4{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/dBanner%20-%2004.webp');}
+.slide5{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/dBanner%20-%2005.webp');}
+
+
+.box3{
+    width: 130px;
+    height: 10px;
+    margin-top: 24px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{width: 10px;height: 10px;background-color: rgba(51, 201, 254, 0.3); border-radius: 5px;transition-duration: 1s;}
+.dot1{width: 50px;}
+
+
+.box4{
+    margin-top: 52px;
+    width: 1440px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1{
+    /* background-color: var(--bg2); */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    height: 52px;
+}
+
+.spacer{
+    width: 10px;
+    height: 50px;
+    background-color: rgba(51, 201, 254, 1);
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.button{
+    height: 48px;
+    border: 1px solid rgba(51, 201, 254, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.button:hover{
+    background-color: rgba(51, 201, 254, 1);
+}
+
+.box5, .box6{
+    width: 1440px;
+    height: 375px;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: last baseline; */
+}
+
+.pcard{
+    width: 270px;
+    height: 350px;
+    border: 1px solid rgba(51, 201, 254, 0.5);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    transition-duration: 0.5s;
+}
+
+.pcard:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.imgcontainer{width: 243px; height: 243px; border-radius: 16px; overflow: hidden;}
+
+.pimg{
+    width: 243px;
+    height: 243px;
+    background-color: lightcoral;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.pcard:hover .pimg{transform: scale(1.05);}
+
+.pimg1{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2001.png');}
+.pimg2{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2002.png');}
+.pimg3{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2003.png');}
+.pimg4{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2004.png');}
+.pimg5{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2005.png');}
+.pimg6{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2006.png');}
+.pimg7{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2007.png');}
+.pimg8{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2008.png');}
+.pimg9{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2009.png');}
+.pimg10{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2010.png');}
