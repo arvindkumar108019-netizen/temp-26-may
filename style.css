@@ -139,10 +139,9 @@ span{color: rgba(51, 201, 254, 1)}
 .box5, .box6{
     width: 1440px;
     height: 375px;
-    padding: 32px 0px;
+    padding-top: 32px;
     display: flex;
     justify-content: space-between;
-    /* align-items: last baseline; */
 }
 
 .pcard{
@@ -151,7 +150,9 @@ span{color: rgba(51, 201, 254, 1)}
     border: 1px solid rgba(51, 201, 254, 0.5);
     border-radius: 16px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     padding: 12px 0px;
     transition-duration: 0.5s;
 }
@@ -166,7 +167,6 @@ span{color: rgba(51, 201, 254, 1)}
 .pimg{
     width: 243px;
     height: 243px;
-    background-color: lightcoral;
     border-radius: 16px;
     background-size: cover;
     background-position: center;
@@ -185,3 +185,24 @@ span{color: rgba(51, 201, 254, 1)}
 .pimg8{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2008.png');}
 .pimg9{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2009.png');}
 .pimg10{background-image: url('https://raw.githubusercontent.com/arvindkumar108019-netizen/Web/refs/heads/main/Image/pImage%20-%2010.png');}
+
+.details{
+    width: 243px;
+    height: 78px;
+    /* background-color: lightcoral; */
+    font-size: 13px;
+    font-weight: 700px;
+    line-height: 2;
+}
+
+.Category{
+    color: lightcoral;
+    font-size: 10px;
+}
+
+.stext{
+    color: lightcoral;
+    font-size: 10px;
+}
+
+.line{text-decoration: line-through; color: rgba(0, 0, 0, 0.5); font-weight: 700;}
