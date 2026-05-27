@@ -1,0 +1,23 @@
+@media (max-width: 1450px){
+
+.box1{width: 1080px !important; border-radius: 0 0 18.75px 18.75px !important;}
+
+.box2{width: 1080px !important; height: 360px !important; border-radius: 18.75px !important;}
+.slider{width: 5400px !important; height: 360px !important;}
+.slide{width: 1080px !important; height: 360px !important;}
+
+.box4{width: 1080px !important;}
+.header1{font-size: 13.5px !important; width: 337.5px !important; height: 39px !important;}
+.spacer{width: 7.5px !important; height: 37.5px !important; margin-right: 15px !important;}
+.button{height: 36px !important; border: 0.75px solid rgba(51, 201, 254, 1) !important; padding: 12px 24px !important; border-radius: 18px !important; font-size: 12px !important;}
+
+.box5, .box6{width: 1080px !important; height: 281.25px !important; padding-top: 24px !important; }
+.pcard{width: 202px !important; height: 262.5px !important; border-radius: 12px !important; padding: 9px 0px !important;}
+.imgcontainer{width: 182.25px !important; height: 182.25px !important; border-radius: 12px !important;}
+.pimg{width: 182.25px !important; height: 182.25px !important; border-radius: 12px !important;}
+.details{width: 182.25px !important; height: 58.5px !important; font-size: 9.75px !important; line-height: 1.9 !important;}
+.Category, .stext{font-size: 7.5px !important;}
+.line{text-decoration: line-through; color: rgba(0, 0, 0, 0.5); font-weight: 700;}
+
+
+}
